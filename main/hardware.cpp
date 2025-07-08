@@ -1,5 +1,5 @@
-#include "hardware.h"
 #include <Arduino.h>
+#include "hardware.h"
 
 void setColorMega(int r, int g, int b) {
   analogWrite(RED_PIN, r);
