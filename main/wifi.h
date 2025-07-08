@@ -55,6 +55,4 @@ bool sendGetRequest(char* url);
 */
 String setPayload(int, bool, int);
 
-String setPayloadBySensor(int id, int value) 
-
 #endif
