@@ -25,7 +25,7 @@ void setup() {
   }
   Serial.println("Initialisation de l'ESP8266 terminée.");
 
-  // Initialiser l'état du photoresistor pour le premier message console
+  // Initialiser l'état du photoresistor pour le 1er message console
   lastPhotoresistorIsDark = photoresistorStatus();
 }
 
